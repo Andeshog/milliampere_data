@@ -1,0 +1,11 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/04/28 11:39:26.143919960,1745833156,149787541,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144073089,1745833156,151512019,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144200333,1745833156,152980743,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144322295,1745833156,154123407,20,rosbag2_recorder,Subscribed to topic '/events/write_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144444275,1745833156,155980402,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144564611,1745833156,157026615,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144684360,1745833156,158013730,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144804340,1745833156,159358129,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.144923296,1745833156,160389223,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/28 11:39:26.145051923,1745833156,160485316,20,rosbag2_recorder,Recording...,./src/rosbag2_transport/recorder.cpp,record,209
