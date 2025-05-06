@@ -1,0 +1,61 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/04/11 11:51:07.431247330,1744365067,355298338,20,rosbag2_recorder,Press SPACE for pausing/resuming,./src/rosbag2_transport/recorder.cpp,Recorder,104
+2025/04/11 11:51:07.431302309,1744365067,359066063,20,rosbag2_recorder,Listening for topics...,./src/rosbag2_transport/recorder.cpp,record,195
+2025/04/11 11:51:07.431319227,1744365067,360753776,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:07.431339316,1744365067,361796885,20,rosbag2_recorder,Subscribed to topic '/events/write_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:07.431352659,1744365067,361889573,20,rosbag2_recorder,Recording...,./src/rosbag2_transport/recorder.cpp,record,209
+2025/04/11 11:51:07.431364964,1744365067,359081489,20,rosbag2_recorder,Event publisher thread: Starting,./src/rosbag2_transport/recorder.cpp,event_publisher_thread_main,215
+2025/04/11 11:51:07.936993014,1744365067,866627898,20,rosbag2_recorder,Subscribed to topic '/dynamic_positioning/control_action',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:07.937330932,1744365067,937219643,20,rosbag2_recorder,Subscribed to topic '/parameter_events',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:08.630643118,1744365062,637397848,20,joy_node,"No haptic (rumble) available, skipping initialization",./src/joy.cpp,handleJoyDeviceAdded,397
+2025/04/11 11:51:08.630685372,1744365062,637583355,20,joy_node,Opened joystick: Logitech Extreme 3D pro.  deadzone: 0.050000,./src/joy.cpp,handleJoyDeviceAdded,400
+2025/04/11 11:51:08.647747794,1744365068,647610128,20,rosbag2_recorder,Subscribed to topic '/joy',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:08.836777346,1744365062,586837212,20,supervisor_node,Supervisor node started,/ros2_ws/install/supervisor/lib/supervisor/supervisor_node.py,__init__,21
+2025/04/11 11:51:08.851917903,1744365068,851805354,20,rosbag2_recorder,Subscribed to topic '/supervisor/mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.64593172,1744365069,64498364,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/fix',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.69577618,1744365069,69258121,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/GPGGA',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.74802048,1744365069,74628233,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/acceleration',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.80507940,1744365069,79818858,20,rosbag2_recorder,Subscribed to topic '/time_reference',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.86239978,1744365069,86144426,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/heading',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.90433565,1744365069,90326268,20,rosbag2_recorder,Subscribed to topic '/diagnostics',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.94468873,1744365069,94356487,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/velocity',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.103467855,1744365069,103348193,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/pose',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.108175477,1744365069,108067150,20,rosbag2_recorder,Subscribed to topic '/xsens/imu',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.191219120,1744365069,191031834,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/velocity',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.192190462,1744365062,488732626,20,guidance_node,Guidance node started,/ros2_ws/install/guidance/lib/guidance/guidance_node.py,__init__,28
+2025/04/11 11:51:09.207587215,1744365062,664708225,20,nmea_serial_driver,Connected to GPS device on /dev/ttyS2 at 115200 baud,/ros2_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver/nmea_serial_driver.py,__init__,61
+2025/04/11 11:51:09.209611225,1744365062,570549579,20,mtnode,Trying to connect to MT device,/ros2_ws/install/xsens_driver/lib/xsens_driver/mtnode.py,init_mtdevice,66
+2025/04/11 11:51:09.209765435,1744365062,574683651,20,mtnode,Trying to connect to MT device on port /dev/ttyUSB0,/ros2_ws/install/xsens_driver/lib/xsens_driver/mtnode.py,init_mtdevice,77
+2025/04/11 11:51:09.209815706,1744365062,688727963,20,mtnode,Using MT device on port /dev/ttyUSB0 at 115200 bps,/ros2_ws/install/xsens_driver/lib/xsens_driver/mtnode.py,init_mtdevice,87
+2025/04/11 11:51:09.209848809,1744365062,689642684,20,mtnode,MT node initialized,/ros2_ws/install/xsens_driver/lib/xsens_driver/mtnode.py,__init__,24
+2025/04/11 11:51:09.210099347,1744365062,628913578,20,dynamic_positioning_node,Dynamic positioning node started,/ros2_ws/install/dynamic_positioning/lib/dynamic_positioning/dynamic_positioning_node.py,__init__,28
+2025/04/11 11:51:09.306386266,1744365069,305758359,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.308260951,1744365069,307555109,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.309876715,1744365069,309411182,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.311478838,1744365069,310984487,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.314800540,1744365069,314416489,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.317195424,1744365069,317085519,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.321390752,1744365069,321276962,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.324344828,1744365069,324244431,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.351147798,1744365062,952775518,20,thruster_driver_node,Thruster driver node started,/ros2_ws/install/thruster_driver/lib/thruster_driver/thruster_driver_node.py,__init__,24
+2025/04/11 11:51:09.574838790,1744365069,574743573,20,rosbag2_recorder,Subscribed to topic '/tf',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.577143449,1744365069,577006291,20,rosbag2_recorder,Subscribed to topic '/navigation/twist_body',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.580089680,1744365069,579990959,20,rosbag2_recorder,Subscribed to topic '/navigation/nav_estimate',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.582375175,1744365069,582252753,20,rosbag2_recorder,Subscribed to topic '/navigation/pose',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.584143594,1744365069,584002179,20,rosbag2_recorder,Subscribed to topic '/navigation/twist_ned',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:09.611679019,1744365063,127014415,20,navigation_node,Navigation node started,/ros2_ws/install/navigation/lib/navigation/navigation_node.py,__init__,141
+2025/04/11 11:51:09.611772712,1744365063,542757384,30,navigation_node,Invalid position (awaiting fix),/ros2_ws/install/navigation/lib/navigation/navigation_node.py,publish_state,407
+2025/04/11 11:51:09.611826122,1744365063,543741067,30,navigation_node,Invalid velocity (awaiting fix),/ros2_ws/install/navigation/lib/navigation/navigation_node.py,publish_state,430
+2025/04/11 11:51:10.150329306,1744365070,150047990,20,rosbag2_recorder,Subscribed to topic '/guidance/waypoint',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.173716017,1744365063,575732314,20,bridge_node,Bridge node has been initialized,/ros2_ws/install/bridge/lib/bridge/bridge.py,__init__,41
+2025/04/11 11:51:10.509929805,1744365070,503768121,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_3',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.512111732,1744365070,511835386,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_1',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.515454624,1744365070,515269165,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_2',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.519260564,1744365070,519025034,20,rosbag2_recorder,Subscribed to topic '/tau_diff',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.521792433,1744365070,521637062,20,rosbag2_recorder,Subscribed to topic '/thruster_4',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.527259095,1744365070,524354535,20,rosbag2_recorder,Subscribed to topic '/tau_actual',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.533567696,1744365070,533245208,20,rosbag2_recorder,Subscribed to topic '/thruster_2',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.536732681,1744365070,536070802,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_4',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.547753225,1744365070,545635103,20,rosbag2_recorder,Subscribed to topic '/thruster_1',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:51:10.550552641,1744365070,549191466,20,rosbag2_recorder,Subscribed to topic '/thruster_3',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/04/11 11:56:51.344011083,1744365411,343706922,20,supervisor_node,Requested switch to dp,/ros2_ws/install/supervisor/lib/supervisor/supervisor_node.py,handle_mode_switch,81
