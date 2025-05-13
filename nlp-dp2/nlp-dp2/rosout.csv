@@ -1,0 +1,36 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/05/07 10:40:41.654911537,1746607241,602572912,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.655139169,1746607241,604746664,20,rosbag2_recorder,Subscribed to topic '/thruster_4',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.655343013,1746607241,606959721,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.655549841,1746607241,609053340,20,rosbag2_recorder,Subscribed to topic '/tau_diff',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.655677294,1746607241,611105602,20,rosbag2_recorder,Subscribed to topic '/tau_actual',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.655815795,1746607241,615536744,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.655959065,1746607241,647445786,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.656101704,1746607241,649299477,20,rosbag2_recorder,Subscribed to topic '/guidance/waypoint',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.656242598,1746607241,652193490,20,rosbag2_recorder,Subscribed to topic '/diagnostics',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.656389653,1746607241,652344218,20,rosbag2_recorder,Recording...,./src/rosbag2_transport/recorder.cpp,record,209
+2025/05/07 10:40:41.670433095,1746607241,670266992,20,rosbag2_recorder,Subscribed to topic '/navigation/twist_ned',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.672825929,1746607241,672691236,20,rosbag2_recorder,Subscribed to topic '/navigation/pose',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.675103141,1746607241,674950847,20,rosbag2_recorder,Subscribed to topic '/navigation/nav_estimate',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:41.677360063,1746607241,677161921,20,rosbag2_recorder,Subscribed to topic '/navigation/twist_body',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.55421728,1746607242,55132898,20,rosbag2_recorder,Subscribed to topic '/tf',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.445924751,1746607240,444221336,20,thrust_allocation_node,Allocator mode set to: nlp,/ros2_ws/install/thrust_allocation/lib/thrust_allocation/thrust_allocation_all.py,mode_callback,92
+2025/05/07 10:40:42.636184536,1746607242,627193027,20,rosbag2_recorder,Subscribed to topic '/time_reference',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.636282941,1746607242,632149219,20,rosbag2_recorder,Subscribed to topic '/dynamic_positioning/control_action',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.636338344,1746607242,634655129,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/velocity',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.645784705,1746607242,645266807,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/heading',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.664888753,1746607242,664619374,20,rosbag2_recorder,Subscribed to topic '/allocator_mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.686565377,1746607242,686397496,20,rosbag2_recorder,Subscribed to topic '/joy',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.701306117,1746607242,697677835,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/GPGGA',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:42.708420046,1746607242,706631578,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/fix',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:43.617658443,1746607243,616430522,20,rosbag2_recorder,Subscribed to topic '/supervisor/mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:46.813233959,1746607246,813020288,20,rosbag2_recorder,Subscribed to topic '/events/read_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/07 10:40:46.980688835,1746607245,969851679,20,rosbag2_player,Set rate to 1,./src/rosbag2_transport/player.cpp,set_rate,295
+2025/05/07 10:40:46.981098552,1746607246,95132971,20,rosbag2_player,Adding keyboard callbacks.,./src/rosbag2_transport/player.cpp,add_keyboard_callbacks,626
+2025/05/07 10:40:46.981184269,1746607246,95204143,20,rosbag2_player,Press SPACE for Pause/Resume,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/07 10:40:46.981326050,1746607246,95236453,20,rosbag2_player,Press CURSOR_RIGHT for Play Next Message,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/07 10:40:46.981396774,1746607246,116581539,20,rosbag2_player,Press CURSOR_UP for Increase Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/07 10:40:46.981452913,1746607246,116646910,20,rosbag2_player,Press CURSOR_DOWN for Decrease Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/07 10:40:47.978742681,1746607247,978466142,20,supervisor_node,Requested switch to dp,/ros2_ws/install/supervisor/lib/supervisor/supervisor_node.py,handle_mode_switch,81
+2025/05/07 10:41:17.779508844,1746607277,779270849,20,supervisor_node,Requested switch to direct_actuator_control,/ros2_ws/install/supervisor/lib/supervisor/supervisor_node.py,handle_mode_switch,81
+2025/05/07 10:41:18.986652646,1746607278,986373315,20,thrust_allocation_node,Allocator mode set to: pseudo_inverse,/ros2_ws/install/thrust_allocation/lib/thrust_allocation/thrust_allocation_all.py,mode_callback,92
