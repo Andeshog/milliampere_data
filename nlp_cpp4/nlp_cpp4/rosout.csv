@@ -1,0 +1,17 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/05/20 13:26:54.949525524,1747740404,974071193,20,rosbag2_recorder,Subscribed to topic '/joy',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949585204,1747740404,978087296,20,rosbag2_recorder,Subscribed to topic '/ma1/gps',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949618743,1747740404,987915208,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949650269,1747740404,991630535,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949681762,1747740404,994960381,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_3',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949713213,1747740404,995985870,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949744632,1747740405,1815837,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/heading',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949775909,1747740405,4742282,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949807248,1747740405,11175358,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_2',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.949845820,1747740405,15326581,20,rosbag2_recorder,Subscribed to topic '/ma1/thruster_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/20 13:26:54.952183506,1747740405,667795272,20,rosbag2_player,Set rate to 1,./src/rosbag2_transport/player.cpp,set_rate,295
+2025/05/20 13:26:54.952231009,1747740405,702233291,20,rosbag2_player,Adding keyboard callbacks.,./src/rosbag2_transport/player.cpp,add_keyboard_callbacks,626
+2025/05/20 13:26:54.952264120,1747740405,702299777,20,rosbag2_player,Press SPACE for Pause/Resume,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/20 13:26:54.952295916,1747740405,702320170,20,rosbag2_player,Press CURSOR_RIGHT for Play Next Message,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/20 13:26:54.952327714,1747740405,702342888,20,rosbag2_player,Press CURSOR_UP for Increase Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/20 13:26:54.952359408,1747740405,702367133,20,rosbag2_player,Press CURSOR_DOWN for Decrease Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
