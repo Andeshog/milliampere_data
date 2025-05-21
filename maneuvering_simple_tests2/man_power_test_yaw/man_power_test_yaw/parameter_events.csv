@@ -1,0 +1,2 @@
+time,stamp_secs,stamp_nsecs,node,new_parameters_0
+2025/05/21 15:11:58.639737773,1747833118,639400505,/tau_publisher,"{'name': 'use_sim_time', 'value': {'type': 1, 'bool_value': False, 'integer_value': 0, 'double_value': 0.0, 'string_value': '', 'byte_array_value': [], 'bool_array_value': [], 'integer_array_value': [], 'double_array_value': [], 'string_array_value': []}}"
