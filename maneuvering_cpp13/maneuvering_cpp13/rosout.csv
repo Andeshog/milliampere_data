@@ -1,0 +1,34 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/05/25 18:29:13.825058278,1748190553,757271230,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825103621,1748190553,758966940,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/heading',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825123449,1748190553,760992724,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825145383,1748190553,762759069,20,rosbag2_recorder,Subscribed to topic '/events/write_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825165196,1748190553,764400297,20,rosbag2_recorder,Subscribed to topic '/navigation/nav_estimate',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825183916,1748190553,766183293,20,rosbag2_recorder,Subscribed to topic '/navigation/twist_body',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825202355,1748190553,767580947,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825220824,1748190553,772147796,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825239173,1748190553,774732926,20,rosbag2_recorder,Subscribed to topic '/ma1/thrusters',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.825257929,1748190553,776724898,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/fix',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:13.826661696,1748190547,747543283,30,navigation_node,Invalid attitude (awaiting fix),/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,publish_state,409
+2025/05/25 18:29:13.826711078,1748190547,779552909,30,navigation_node,Invalid attitude (awaiting fix),/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,publish_state,409
+2025/05/25 18:29:13.826731372,1748190547,828144654,30,navigation_node,Invalid attitude (awaiting fix),/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,publish_state,409
+2025/05/25 18:29:13.826750134,1748190547,841264498,20,navigation_node,Current state attitude: [ 0.          0.         -0.55612473  0.83109884],/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,callback_hdt,398
+2025/05/25 18:29:14.219749355,1748190554,206130428,20,rosbag2_player,Set rate to 1,./src/rosbag2_transport/player.cpp,set_rate,295
+2025/05/25 18:29:14.219773410,1748190554,212856651,20,rosbag2_player,Adding keyboard callbacks.,./src/rosbag2_transport/player.cpp,add_keyboard_callbacks,626
+2025/05/25 18:29:14.219793548,1748190554,212909734,20,rosbag2_player,Press SPACE for Pause/Resume,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:29:14.219812861,1748190554,212930238,20,rosbag2_player,Press CURSOR_RIGHT for Play Next Message,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:29:14.219832252,1748190554,212948807,20,rosbag2_player,Press CURSOR_UP for Increase Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:29:14.219851273,1748190554,212966814,20,rosbag2_player,Press CURSOR_DOWN for Decrease Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:29:14.349400692,1748190547,167951424,20,guidance_node,Guidance node started,/home/anders/milliAmpere/ros2_ws/install/guidance/lib/guidance/guidance_node.py,__init__,28
+2025/05/25 18:29:14.350036523,1748190546,428146580,20,joy_node,Opened joystick: Xbox Series X Controller.  deadzone: 0.200000,./src/joy.cpp,handleJoyDeviceAdded,400
+2025/05/25 18:29:14.352773819,1748190546,920953493,20,supervisor_node,Supervisor node started,/home/anders/milliAmpere/ros2_ws/install/supervisor/lib/supervisor/supervisor_node.py,__init__,21
+2025/05/25 18:29:23.824950787,1748190553,832619248,20,rosbag2_recorder,Subscribed to topic '/dynamic_positioning/control_action',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825009049,1748190554,262705980,20,rosbag2_recorder,Subscribed to topic '/events/read_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825041677,1748190554,373781433,20,rosbag2_recorder,Subscribed to topic '/ma1/servo_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825078639,1748190554,419759977,20,rosbag2_recorder,Subscribed to topic '/ma1/odom',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825111208,1748190554,424849449,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/velocity',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825142611,1748190554,429231652,20,rosbag2_recorder,Subscribed to topic '/forces',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825173949,1748190554,435783227,20,rosbag2_recorder,Subscribed to topic '/tau_diff',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825209835,1748190554,437123137,20,rosbag2_recorder,Subscribed to topic '/tau_actual',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825242433,1748190554,441146232,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/acceleration',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:29:23.825273933,1748190554,448349525,20,rosbag2_recorder,Subscribed to topic '/joy',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368

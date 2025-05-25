@@ -1,0 +1,27 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/05/25 18:15:56.86793965,1748189755,812329363,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/fix',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.86991394,1748189755,843571934,20,rosbag2_recorder,Subscribed to topic '/tf',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.87108302,1748189755,844969358,20,rosbag2_recorder,Subscribed to topic '/tau_diff',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.87179462,1748189755,847317354,20,rosbag2_recorder,Subscribed to topic '/tau_actual',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.87239105,1748189755,850293085,20,rosbag2_recorder,Subscribed to topic '/sim/vessel_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.87288832,1748189755,853319401,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.90783877,1748189755,856517063,20,rosbag2_recorder,Subscribed to topic '/parameter_events',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.90873611,1748189755,860245640,20,rosbag2_recorder,Subscribed to topic '/dynamic_positioning/control_action',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.90914692,1748189755,861949358,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.90954689,1748189755,863042641,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:15:56.93382305,1748189748,271496824,20,dynamic_positioning_node,Dynamic positioning node started,/home/anders/milliAmpere/ros2_ws/install/dynamic_positioning/lib/dynamic_positioning/dynamic_positioning_node.py,__init__,28
+2025/05/25 18:15:56.93444623,1748189748,619463691,20,navigation_node,Navigation node started,/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,__init__,141
+2025/05/25 18:15:56.93475865,1748189748,674181118,30,navigation_node,Invalid attitude (awaiting fix),/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,publish_state,409
+2025/05/25 18:15:56.93516543,1748189748,724144281,30,navigation_node,Invalid attitude (awaiting fix),/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,publish_state,409
+2025/05/25 18:15:56.93547884,1748189748,733486646,20,navigation_node,Current state attitude: [0.         0.         0.81384515 0.58108182],/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,callback_hdt,398
+2025/05/25 18:15:56.836714222,1748189748,127689868,20,supervisor_node,Supervisor node started,/home/anders/milliAmpere/ros2_ws/install/supervisor/lib/supervisor/supervisor_node.py,__init__,21
+2025/05/25 18:15:58.865931860,1748189749,598669932,20,joy_node,Opened joystick: Xbox Series X Controller.  deadzone: 0.200000,./src/joy.cpp,handleJoyDeviceAdded,400
+2025/05/25 18:15:59.351342157,1748189756,400576807,20,rosbag2_player,Set rate to 1,./src/rosbag2_transport/player.cpp,set_rate,295
+2025/05/25 18:15:59.351409030,1748189756,409659632,20,rosbag2_player,Adding keyboard callbacks.,./src/rosbag2_transport/player.cpp,add_keyboard_callbacks,626
+2025/05/25 18:15:59.351442617,1748189756,409716492,20,rosbag2_player,Press SPACE for Pause/Resume,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:15:59.351474827,1748189756,409958673,20,rosbag2_player,Press CURSOR_RIGHT for Play Next Message,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:15:59.351512444,1748189756,409979377,20,rosbag2_player,Press CURSOR_UP for Increase Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:15:59.351545554,1748189756,409997527,20,rosbag2_player,Press CURSOR_DOWN for Decrease Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 18:16:06.86338208,1748189756,782190868,20,rosbag2_recorder,Subscribed to topic '/supervisor/mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:16:06.86404286,1748189756,784010080,20,rosbag2_recorder,Subscribed to topic '/allocator_mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 18:16:06.86438915,1748189759,330258566,20,rosbag2_recorder,Subscribed to topic '/events/read_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368

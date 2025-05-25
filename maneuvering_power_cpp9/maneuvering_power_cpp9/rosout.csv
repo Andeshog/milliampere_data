@@ -1,0 +1,31 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/05/25 19:00:05.585407693,1748192405,557947357,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/velocity',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.585439991,1748192405,559647898,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/acceleration',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.585468686,1748192405,564009334,20,rosbag2_recorder,Subscribed to topic '/forces',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.585496645,1748192405,567079743,20,rosbag2_recorder,Subscribed to topic '/guidance/waypoint',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.585938014,1748192405,572090586,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.585979200,1748192405,574121642,20,rosbag2_recorder,Subscribed to topic '/ma1/servos',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.586007628,1748192405,576091438,20,rosbag2_recorder,Subscribed to topic '/ma1/thrusters',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.586035655,1748192405,577896395,20,rosbag2_recorder,Subscribed to topic '/navigation/nav_estimate',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.586063247,1748192405,580056170,20,rosbag2_recorder,Subscribed to topic '/navigation/pose',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.586090754,1748192405,581371209,20,rosbag2_recorder,Subscribed to topic '/sim/vessel_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.592709369,1748192396,133014178,20,navigation_node,Navigation node started,/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,__init__,141
+2025/05/25 19:00:05.592892487,1748192396,229463055,20,navigation_node,Current state attitude: [0.         0.         0.88544531 0.46474358],/home/anders/milliAmpere/ros2_ws/install/navigation/lib/navigation/navigation_node.py,callback_hdt,398
+2025/05/25 19:00:05.595397751,1748192396,928191704,20,bridge_node,Bridge node has been initialized,/home/anders/milliAmpere/ros2_ws/install/bridge/lib/bridge/bridge.py,__init__,41
+2025/05/25 19:00:05.641215495,1748192405,582448426,20,rosbag2_recorder,Subscribed to topic '/dynamic_positioning/control_action',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.641264521,1748192405,584927403,20,rosbag2_recorder,Subscribed to topic '/supervisor/mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:05.641297366,1748192405,585060068,20,rosbag2_recorder,Recording...,./src/rosbag2_transport/recorder.cpp,record,209
+2025/05/25 19:00:06.580231798,1748192406,580055132,20,rosbag2_recorder,Subscribed to topic '/ma1/imu',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:06.594950424,1748192406,594841952,20,rosbag2_recorder,Subscribed to topic '/ma1/thruster_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:06.655382659,1748192406,655258305,20,rosbag2_recorder,Subscribed to topic '/ma1/gps',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:06.671734753,1748192406,671653829,20,rosbag2_recorder,Subscribed to topic '/ma1/servo_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:06.722593999,1748192406,722057332,20,rosbag2_recorder,Subscribed to topic '/ma1/odom',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:06.732363430,1748192406,731098502,20,rosbag2_recorder,Subscribed to topic '/joy',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:06.735849588,1748192406,735692199,20,rosbag2_recorder,Subscribed to topic '/allocator_mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/25 19:00:09.37572247,1748192406,838890626,20,rosbag2_player,Set rate to 1,./src/rosbag2_transport/player.cpp,set_rate,295
+2025/05/25 19:00:09.37621683,1748192406,850567330,20,rosbag2_player,Adding keyboard callbacks.,./src/rosbag2_transport/player.cpp,add_keyboard_callbacks,626
+2025/05/25 19:00:09.37656921,1748192406,850627391,20,rosbag2_player,Press SPACE for Pause/Resume,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 19:00:09.37704093,1748192406,850642532,20,rosbag2_player,Press CURSOR_RIGHT for Play Next Message,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 19:00:09.37740084,1748192406,850655206,20,rosbag2_player,Press CURSOR_UP for Increase Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 19:00:09.37773400,1748192406,850667752,20,rosbag2_player,Press CURSOR_DOWN for Decrease Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/25 19:00:09.54098064,1748192409,54009716,20,rosbag2_recorder,Subscribed to topic '/events/read_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
