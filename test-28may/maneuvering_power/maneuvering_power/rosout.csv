@@ -1,0 +1,49 @@
+time,stamp_secs,stamp_nsecs,level,name,msg,file,function,line
+2025/05/28 09:40:00.858546721,1748417999,262555571,20,rosbag2_player,Press CURSOR_RIGHT for Play Next Message,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/28 09:40:00.858590324,1748417999,262575891,20,rosbag2_player,Press CURSOR_UP for Increase Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/28 09:40:00.858611708,1748417999,262595119,20,rosbag2_player,Press CURSOR_DOWN for Decrease Rate 10%,./src/rosbag2_transport/player.cpp,add_key_callback,615
+2025/05/28 09:40:00.915907056,1748418000,839323776,20,rosbag2_recorder,Press SPACE for pausing/resuming,./src/rosbag2_transport/recorder.cpp,Recorder,104
+2025/05/28 09:40:00.915955187,1748418000,842834895,20,rosbag2_recorder,Listening for topics...,./src/rosbag2_transport/recorder.cpp,record,195
+2025/05/28 09:40:00.915967708,1748418000,842856546,20,rosbag2_recorder,Event publisher thread: Starting,./src/rosbag2_transport/recorder.cpp,event_publisher_thread_main,215
+2025/05/28 09:40:00.915978808,1748418000,845695857,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:00.915989484,1748418000,847052405,20,rosbag2_recorder,Subscribed to topic '/parameter_events',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:00.916007845,1748418000,849926638,20,rosbag2_recorder,Subscribed to topic '/joy',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:00.916018265,1748418000,851932089,20,rosbag2_recorder,Subscribed to topic '/events/write_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:00.916028993,1748418000,854800850,20,rosbag2_recorder,Subscribed to topic '/events/read_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:00.916039087,1748418000,857859248,20,rosbag2_recorder,Subscribed to topic '/dynamic_positioning/control_action',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:00.916049590,1748418000,857992078,20,rosbag2_recorder,Recording...,./src/rosbag2_transport/recorder.cpp,record,209
+2025/05/28 09:40:01.65572333,1748418001,64236242,20,rosbag2_recorder,Subscribed to topic '/diagnostics',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.67966131,1748418001,65539275,20,rosbag2_recorder,Subscribed to topic '/xsens/imu',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.173225209,1748418001,172857783,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/fix',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.178476024,1748418001,176368910,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/GPGGA',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.179867592,1748418001,179725357,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/acceleration',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.182428168,1748418001,182351787,20,rosbag2_recorder,Subscribed to topic '/time_reference',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.184553682,1748418001,184395860,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/heading',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.187409703,1748418001,187327538,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/velocity',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.189221647,1748418001,189117971,20,rosbag2_recorder,Subscribed to topic '/guidance/reference/pose',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.192087482,1748418001,191205178,20,rosbag2_recorder,Subscribed to topic '/vectorVS330/velocity',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.506123488,1748418001,505893661,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.508602605,1748418001,508494433,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.512419675,1748418001,512035412,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_3/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.515910182,1748418001,515230003,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.528669134,1748418001,527290329,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_4/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.540164963,1748418001,539742736,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/thruster/motor_state',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.541478715,1748418001,541260306,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_1/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.543209696,1748418001,542968200,20,rosbag2_recorder,Subscribed to topic '/actuators/actuator_2/azimuth_angle',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.965244393,1748418001,965106993,20,rosbag2_recorder,Subscribed to topic '/tf',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.966946478,1748418001,966819988,20,rosbag2_recorder,Subscribed to topic '/navigation/twist_body',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.970272607,1748418001,969609137,20,rosbag2_recorder,Subscribed to topic '/navigation/nav_estimate',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.974686499,1748418001,974525987,20,rosbag2_recorder,Subscribed to topic '/navigation/pose',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:01.980403519,1748418001,980281205,20,rosbag2_recorder,Subscribed to topic '/navigation/twist_ned',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.102769830,1748418002,102515707,20,rosbag2_recorder,Subscribed to topic '/guidance/waypoint',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.229990630,1748418002,229843086,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_3',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.235954009,1748418002,235352715,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_1',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.245737078,1748418002,245602715,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_2',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.250126146,1748418002,249900844,20,rosbag2_recorder,Subscribed to topic '/forces',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.257780712,1748418002,255272449,20,rosbag2_recorder,Subscribed to topic '/actuator_ref_4',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.270354961,1748418002,269078613,20,rosbag2_recorder,Subscribed to topic '/tau_actual',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:02.286239229,1748418002,284993125,20,rosbag2_recorder,Subscribed to topic '/tau_diff',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:03.919242842,1748418003,918476836,20,rosbag2_recorder,Subscribed to topic '/supervisor/mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:40:03.924395558,1748418003,923976135,20,rosbag2_recorder,Subscribed to topic '/allocator_mode',./src/rosbag2_transport/recorder.cpp,subscribe_topic,368
+2025/05/28 09:42:26.418507530,1748418146,418343751,20,supervisor_node,Requested switch to direct_actuator_control,/ros2_ws/install/supervisor/lib/supervisor/supervisor_node.py,handle_mode_switch,81
+2025/05/28 09:42:27.645956238,1748418147,645683738,20,rosbag2_player,Pausing play.,./src/rosbag2_transport/player.cpp,pause,267
